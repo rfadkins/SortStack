@@ -7,15 +7,20 @@ import java.util.List;
 public class TXT2ArrayList {
 
 
-
-    public static List<String> TXT2ArrayList(String filePath) {
+    public static List<String> convert(String filePath) {
         List textList = new ArrayList<String>();
         System.out.println("You asked to turn the file --" + filePath +"-- Into a list");
+        System.out.println("But I can only provide dummy datas at the moment!");
 
-        //This is where the magic happens, but for now let's just return sample data.
+        //This is where the magic happens, but for now let's just generate sample data.
         textList.add(filePath);
+        textList.add("Subsequent Data - " +  filePath);
+        textList.add("Subsequent Data 3 - " +  filePath);
+
+
 
         return textList;
     }
+
 
 }
