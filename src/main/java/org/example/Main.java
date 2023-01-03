@@ -25,7 +25,9 @@ public class Main {
     }
 
     public static String fileEntry() {
+        System.out.println("==================================");
         System.out.println("Please Enter the name of the file:");
+        System.out.println("==================================");
         String fileName = fileScanner.nextLine();
         return fileName;
     }
@@ -37,5 +39,6 @@ public class Main {
         for (String listData : myList) {
             System.out.println(listData);
         }
+        System.out.println("=============================================");
     }
 }
