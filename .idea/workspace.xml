@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06cc74d5-4ed8-4460-b565-0ffa5194968f" name="Changes" comment="Code around file input framework complete. &#10;Next Step: Actual file input.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SortArrayList.java" afterDir="false" />
+    <list default="true" id="06cc74d5-4ed8-4460-b565-0ffa5194968f" name="Changes" comment="File input some kind of functional&#10;Crappy menu and Class/Framework for sorting implemented.&#10;Next Step: Actually do the sorting">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Function_FileMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/GraphicalInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TXT2ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/TXT2ArrayList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +45,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/JavaDev/repos/basictext/BasicText"
   }
 }]]></component>
   <component name="RunManager">
@@ -105,13 +106,21 @@
       <option name="project" value="LOCAL" />
       <updated>1672782146725</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="File input some kind of functional&#10;Crappy menu and Class/Framework for sorting implemented.&#10;Next Step: Actually do the sorting">
+      <created>1672809353738</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1672809353738</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Basic start code." />
     <MESSAGE value="Basic start code 2." />
     <MESSAGE value="Code around file input framework complete. &#10;Next Step: Actual file input." />
-    <option name="LAST_COMMIT_MESSAGE" value="Code around file input framework complete. &#10;Next Step: Actual file input." />
+    <MESSAGE value="File input some kind of functional&#10;Crappy menu and Class/Framework for sorting implemented.&#10;Next Step: Actually do the sorting" />
+    <option name="LAST_COMMIT_MESSAGE" value="File input some kind of functional&#10;Crappy menu and Class/Framework for sorting implemented.&#10;Next Step: Actually do the sorting" />
   </component>
 </project>

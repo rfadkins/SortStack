@@ -13,17 +13,20 @@ public class Main {
     public static void main(String[] args) {
 
         System.out.println("--* Welcome to the Sort Stack! *--");
+        GraphicalInterface.main();
 
+        //Old PreGUI Code
         //Step 1: Get a filename and call TXT2Arraylist to pull the contents of that file
-        String fileName = fileEntry();
-        itemList.addAll(TXT2ArrayList.convert(fileName));
+        //String fileName = fileEntry();
+        //itemList.addAll(TXT2ArrayList.convert(fileName));
 
         //Step 2: Present the User with a menu on how to proceed
-        mainMenu();
+        //mainMenu();
 
         //Test Outputs
-        System.out.println("OK, After I did that your data looks like:");
-        listMyList(itemList);
+        //System.out.println("OK, After I did that your data looks like:");
+        //listMyList(itemList);
+
 
     }
 
