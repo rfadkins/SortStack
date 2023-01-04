@@ -44,7 +44,11 @@ public class Function_FileMenu {
     }
 
     public void sortAlphabetical(){
-        fileMenuItemList.addAll(SortArrayList.sortAlphabetical(fileMenuItemList));
+        List<String> sortedList = new ArrayList<>();
+        sortedList.clear();
+        sortedList.addAll(SortArrayList.sortAlphabetical(fileMenuItemList));
+        fileMenuItemList.clear();;
+        fileMenuItemList.addAll(sortedList);;
 
         this.gui.textArea.setText("");
         this.gui.textArea.append("================================" + "\n");
@@ -56,7 +60,11 @@ public class Function_FileMenu {
     }
 
     public void sortReverseAlphabetical(){
-        fileMenuItemList.addAll(SortArrayList.sortReverseAlphabetical(fileMenuItemList));
+        List<String> sortedList = new ArrayList<>();
+        sortedList.clear();
+        sortedList.addAll(SortArrayList.sortReverseAlphabetical(fileMenuItemList));
+        fileMenuItemList.clear();;
+        fileMenuItemList.addAll(sortedList);
 
         this.gui.textArea.setText("");
         this.gui.textArea.append("================================" + "\n");
