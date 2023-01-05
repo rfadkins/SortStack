@@ -43,10 +43,11 @@ public class Function_FileMenu {
 
     }
 
-    public void sortAlphabetical(){
+    public void sortAlphabetical(Boolean reverse){
         List<String> sortedList = new ArrayList<>();
         sortedList.clear();
-        sortedList.addAll(SortArrayList.sortAlphabetical(fileMenuItemList));
+        if (reverse==false){sortedList.addAll(SortArrayList.sortAlphabetical(fileMenuItemList, false));}
+        if (reverse==true){sortedList.addAll(SortArrayList.sortAlphabetical(fileMenuItemList,true));}
         fileMenuItemList.clear();;
         fileMenuItemList.addAll(sortedList);;
 
@@ -59,12 +60,16 @@ public class Function_FileMenu {
         }
     }
 
-    public void sortReverseAlphabetical(){
+/*     Cut for efficiency.
+
+        public void sortReverseAlphabetical(){
+
         List<String> sortedList = new ArrayList<>();
         sortedList.clear();
         sortedList.addAll(SortArrayList.sortReverseAlphabetical(fileMenuItemList));
         fileMenuItemList.clear();;
         fileMenuItemList.addAll(sortedList);
+
 
         this.gui.textArea.setText("");
         this.gui.textArea.append("================================" + "\n");
@@ -73,7 +78,7 @@ public class Function_FileMenu {
         for (String sortText: fileMenuItemList) {
             this.gui.textArea.append(sortText + "\n");
         }
-    }
+    }*/
 
     public void exitFile() {
         System.exit(0);

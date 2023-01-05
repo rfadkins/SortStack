@@ -86,10 +86,10 @@ public class GraphicalInterface implements ActionListener {
                 this.file.openFile();
                 break;
             case "Sort Alphabetical":
-                this.file.sortAlphabetical();
+                this.file.sortAlphabetical(false);
                 break;
             case "Sort Reverse Alphabetical":
-                this.file.sortReverseAlphabetical();
+                this.file.sortAlphabetical(true);
                 break;
             case "Exit":
                 this.file.exitFile();

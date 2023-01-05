@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06cc74d5-4ed8-4460-b565-0ffa5194968f" name="Changes" comment="GUI Implemented.&#10;Next Step: Fix it so that the lists clear before writing new ones, and Actually do the sorting">
+    <list default="true" id="06cc74d5-4ed8-4460-b565-0ffa5194968f" name="Changes" comment="Worked on lists not clearing&#10;Next Step: Fix it so that the lists clear before writing new ones, and Actually do the sorting">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Function_FileMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Function_FileMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/GraphicalInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/GraphicalInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SortArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SortArrayList.java" afterDir="false" />
     </list>
@@ -41,14 +42,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/JavaDev/repos/basictext/BasicText"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/JavaDev/repos/basictext/BasicText&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
@@ -120,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672873366710</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Worked on lists not clearing&#10;Next Step: Fix it so that the lists clear before writing new ones, and Actually do the sorting">
+      <created>1672874034371</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1672874034371</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -129,6 +137,7 @@
     <MESSAGE value="Code around file input framework complete. &#10;Next Step: Actual file input." />
     <MESSAGE value="File input some kind of functional&#10;Crappy menu and Class/Framework for sorting implemented.&#10;Next Step: Actually do the sorting" />
     <MESSAGE value="GUI Implemented.&#10;Next Step: Fix it so that the lists clear before writing new ones, and Actually do the sorting" />
-    <option name="LAST_COMMIT_MESSAGE" value="GUI Implemented.&#10;Next Step: Fix it so that the lists clear before writing new ones, and Actually do the sorting" />
+    <MESSAGE value="Worked on lists not clearing&#10;Next Step: Fix it so that the lists clear before writing new ones, and Actually do the sorting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Worked on lists not clearing&#10;Next Step: Fix it so that the lists clear before writing new ones, and Actually do the sorting" />
   </component>
 </project>
