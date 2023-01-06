@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06cc74d5-4ed8-4460-b565-0ffa5194968f" name="Changes" comment="Worked on lists not clearing&#10;Next Step: Fix it so that the lists clear before writing new ones, and Actually do the sorting">
+    <list default="true" id="06cc74d5-4ed8-4460-b565-0ffa5194968f" name="Changes" comment="Simplified code so that sort/reverse doesn't have to be multiple methods in multiple places.&#10;Next Step: Stop finding other stuff to do and Actually do the sorting">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Function_FileMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Function_FileMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/GraphicalInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/GraphicalInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SortArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SortArrayList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -128,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672874034371</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Simplified code so that sort/reverse doesn't have to be multiple methods in multiple places.&#10;Next Step: Stop finding other stuff to do and Actually do the sorting">
+      <created>1672940615623</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1672940615623</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -138,6 +143,7 @@
     <MESSAGE value="File input some kind of functional&#10;Crappy menu and Class/Framework for sorting implemented.&#10;Next Step: Actually do the sorting" />
     <MESSAGE value="GUI Implemented.&#10;Next Step: Fix it so that the lists clear before writing new ones, and Actually do the sorting" />
     <MESSAGE value="Worked on lists not clearing&#10;Next Step: Fix it so that the lists clear before writing new ones, and Actually do the sorting" />
-    <option name="LAST_COMMIT_MESSAGE" value="Worked on lists not clearing&#10;Next Step: Fix it so that the lists clear before writing new ones, and Actually do the sorting" />
+    <MESSAGE value="Simplified code so that sort/reverse doesn't have to be multiple methods in multiple places.&#10;Next Step: Stop finding other stuff to do and Actually do the sorting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Simplified code so that sort/reverse doesn't have to be multiple methods in multiple places.&#10;Next Step: Stop finding other stuff to do and Actually do the sorting" />
   </component>
 </project>

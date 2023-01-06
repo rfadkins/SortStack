@@ -48,14 +48,12 @@ public class Function_FileMenu {
         sortedList.clear();
         if (reverse==false){sortedList.addAll(SortArrayList.sortAlphabetical(fileMenuItemList, false));}
         if (reverse==true){sortedList.addAll(SortArrayList.sortAlphabetical(fileMenuItemList,true));}
-        fileMenuItemList.clear();;
-        fileMenuItemList.addAll(sortedList);;
 
         this.gui.textArea.setText("");
         this.gui.textArea.append("================================" + "\n");
         this.gui.textArea.append("Your Translated data looks like:" + "\n");
         this.gui.textArea.append("================================" + "\n");
-        for (String sortText: fileMenuItemList) {
+        for (String sortText: sortedList) {
             this.gui.textArea.append(sortText + "\n");
         }
     }
